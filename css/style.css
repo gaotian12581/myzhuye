@@ -94,7 +94,7 @@ body.sub-page footer{border-top: 1px solid #ccc;}
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------Header-Styles-------------------------------- */
 /* ---------------------------------------------------------------------------- */
-header.main-header{background-size: cover;background-image: url(../images/timg.jpg);background-repeat: no-repeat;background-position: 50% top;min-height: 600px; position: relative}
+header.main-header{background-size: cover;background-image: url(../images/timg.jpg);background-repeat: no-repeat;background-position: 50% top;min-height: 900px; position: relative}
 header.main-header:after{background: rgba(0, 0, 0, .7);height: 100%;width: 100%;position:absolute;content: "";right: 0;top: 0;left: 0;bottom: 0;}
 
 /* Header Styles */
@@ -111,7 +111,7 @@ header.main-header:after{background: rgba(0, 0, 0, .7);height: 100%;width: 100%;
 /* ---HomePage--- */
 .box-content {overflow: hidden}
 .box-content .heading{margin-bottom: 50px; text-align: center;}
-.box-content .heading h2{ font-weight: 300;font-size: 28px;}
+.box-content .heading h2{ font-weight: 300;font-size: 36px;}
 .box-content .heading.bold h2{ font-weight: 800;font-size: 40px;letter-spacing: 2px;}
 .box-content .heading.light h2{color: #fff;}
 .box-content .heading.dark h2{color: #2b2d3f;}
@@ -394,7 +394,7 @@ footer .bottom-footer .link{margin-top: 10px;}
 
 .box-text{padding: 70px 50px 30px;}
 .box-text .title {margin-bottom: 10px;font-family: 'Raleway', sans-serif;}
-.box-text .title h3{font-size: 57px; font-weight:800;color: #000;text-transform: uppercase;}
+.box-text .title h3{font-size: 36px; font-weight:800;color: #000;text-transform: uppercase;}
 .box-text .title span{font-size: 24px; font-weight:800;color: #000;text-transform: uppercase;margin: 40px 0 20px;display: block;}
 
 .box-text .content{margin: 20px 0;}
@@ -407,6 +407,7 @@ footer .bottom-footer .link{margin-top: 10px;}
 
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
 	.box-text{padding: 60px;}
+    .panzi{}
 }
 
 @media(min-width:768px){
@@ -426,4 +427,3 @@ footer .bottom-footer .link{margin-top: 10px;}
 	.box-text .content:after{right: 47%;}
 	.flex-box  .box-image {height: 430px;width: 100%;}
 }
-
